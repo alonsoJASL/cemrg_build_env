@@ -1,7 +1,7 @@
-FROM ubuntu:18.04 
+FROM ubuntu:20.04 
 
 RUN apt-get update && apt-get install -y build-essential git dbus gfortran \
-    cmake gcc-6 g++-6 python3 python3-pip \ 
+    cmake gcc-9 g++-9 python3 python3-pip \ 
     unzip wget \
     zlib1g-dev mesa-common-dev libglu1-mesa-dev \
     libgmp3-dev libgtk2.0-0 libmpfi-dev libmpfr-dev libtbb-dev \
